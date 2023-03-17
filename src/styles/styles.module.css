@@ -1,0 +1,13 @@
+.logo {
+    width: 50%;
+    height: 100px;
+}
+
+.title_2{
+    text-align: center;
+    width:100%;
+    color:red;
+}
+.body {
+    background: red;
+}
