@@ -16,12 +16,13 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ivankud/webproj_vue/issues" 
+    "url": "https://github.com/ivankud/webproj_vue/issues"
   },
   "homepage": "https://github.com/ivankud/webproj_vue#readme",
   "devDependencies": {
     "@babel/core": "^7.21.3",
     "@babel/preset-env": "^7.20.2",
+    "@vue/compiler-sfc": "^3.2.47",
     "babel-loader": "^9.1.2",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.7.3",
@@ -37,6 +38,7 @@
     "webpack-dev-server": "^4.12.0"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.12.1"
+    "@babel/polyfill": "^7.12.1",
+    "vue": "^3.2.36"
   }
 }

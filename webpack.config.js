@@ -2,7 +2,7 @@ require("@babel/polyfill");
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
-
+const webpack = require('webpack');
 
 const webpackConfig = {
     mode : 'development',
@@ -17,6 +17,9 @@ const webpackConfig = {
             title : 'Custom template',
             template: path.resolve(__dirname,'./src/index.html'),
         }),
+        new webpack.ProvidePlugin({
+          Vue: ['vue/dist/vue.esm.js', 'default'],
+        })
     ],
     devServer: {
         static: {
