@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ivankud/webproj.git"
+    "url": "git+https://github.com/ivankud/webproj_vue.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ivankud/webproj/issues" 
+    "url": "https://github.com/ivankud/webproj_vue/issues" 
   },
-  "homepage": "https://github.com/ivankud/webproj#readme",
+  "homepage": "https://github.com/ivankud/webproj_vue#readme",
   "devDependencies": {
     "@babel/core": "^7.21.3",
     "@babel/preset-env": "^7.20.2",
